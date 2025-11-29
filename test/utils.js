@@ -4,7 +4,7 @@ const brokenCapabilities = {
     'platformName': 'macOS 13',
     'browserVersion': 'latest',
     'sauce:options': {
-        'name': 'Broken Google Search',
+        'name': 'Google Search Sauce Labs',
         'screenResolution': '1280x960',
         'build': process.env.GITLAB_CI ? `${process.env.CI_JOB_NAME}-${date}` : `support-tech-test-${date}`
     }

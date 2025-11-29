@@ -8,7 +8,7 @@ const SAUCE_ACCESS_KEY = process.env.SAUCE_ACCESS_KEY;
 // Use EU datacenter if needed, otherwise US-West works too
 const ONDEMAND_URL = `https://${SAUCE_USERNAME}:${SAUCE_ACCESS_KEY}@ondemand.eu-central-1.saucelabs.com:443/wd/hub`;
 
-describe('Broken Sauce', function () {
+describe('Search Sauce Labs and Hover Developers and click Documentation', function () {
   it('should go to Google and click Sauce', async function () {
     const chromeOptions = new chrome.Options();
     chromeOptions.addArguments('--disable-blink-features=AutomationControlled');
